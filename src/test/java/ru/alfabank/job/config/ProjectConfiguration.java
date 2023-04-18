@@ -12,6 +12,7 @@ public class ProjectConfiguration {
     }
 
     public void webConfig() {
+        Configuration.pageLoadStrategy = "eager";
         Configuration.browser = webConfig.getBrowser();
         Configuration.browserVersion = webConfig.getBrowserVersion();
         Configuration.browserSize = webConfig.getBrowserSize();
